@@ -1,0 +1,138 @@
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev libc6-dev lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev g++-multilib mingw32 tofrodos python-markdown libxml2-utils xsltproc
+    4  sudo dpkg-reconfigure dash
+    5  sudo rm /bin/sh
+    6  sudo ln -s /bin/bash /bin/sh
+    7  sudo add-apt-repository "deb http://archive.canonical.com/ lucid partner"
+    8  sudo apt-get update
+    9  sudo apt-get install sun-java6-jdk
+   10  ssh xugq@192.168.1.7
+   11  sftp xugq@192.168.1.7
+   12  ll
+   13  pwd
+   14  tar xvzf jdk1.6.0_45.tar.gz 
+   15  vim android4env.sh 
+   16  vi android4env.sh 
+   17  source android4env.sh 
+   18  javac -version
+   19  ls
+   20  sudo apt-get install openjdk-7-jdk
+   21  sudo apt-get install libc++-dev
+   22  sudo apt-get install lib32readline-gplv2-dev
+   23  sudo apt-get install lib32z1
+   24  sudo apt-get install lib32ncurses5
+   25  sudo apt-get install lib32bz2-1.0
+   26  sudo apt-get install libncurses*
+   27  sudo apt-get install libncurses5-dev
+   28  ld /dev/sd
+   29  ld /dev/sd*
+   30  ls /dev/sd*
+   31  ls
+   32  mkdir work
+   33  mount
+   34  df
+   35  vim /etc/fstab
+   36  sudo apt-get install vim
+   37  ld -h
+   38  ld --help
+   39  sudo apt-get install samba system-config-samba
+   40  ls
+   41  pwd
+   42  ls
+   43  df
+   44  vim /etc/fstab
+   45  sudo vim /etc/fstab
+   46  ls /dev/sd*
+   47  reboot
+   48  sudo reboot
+   49  mount
+   50  df
+   51  ls
+   52  mount -vl -t ext4 /dev/sdb work/
+   53  sudo mount -vl -t ext4 /dev/sdb work/
+   54  sudo mount -t ext4 /dev/sdb work/
+   55  cat /etc/fstab
+   56  sudo mount -t ext4 /dev/sdb work/
+   57  dmesg
+   58  mkfs.ext4 /dev/sdb
+   59  sudo mkfs.ext4 /dev/sdb
+   60  sudo mount -t ext4 /dev/sdb work/
+   61  df
+   62  reboot
+   63  sudo reboot
+   64  df
+   65  ls
+   66  cat /etc/fstab
+   67  ifconfig
+   68  ping 192168.1.2
+   69  ping 192.168.1.2
+   70  sudo apt-get install openssh-server 
+   71  sudo apt-get install smdfs
+   72  sudo apt-get install smbfs
+   73  sudo apt-get install subversion
+   74  cat /etc/fstab
+   75  mount -a
+   76  sudo mouont -a
+   77  sudo mount -a
+   78  pwd
+   79  vim /etc/fstab
+   80  sudo vim /etc/fstab
+   81  reboot
+   82  sudo reboot
+   83  mount
+   84  df
+   85  ifconfig
+   86  vim /etc/rc.local
+   87  ls /etc/rc*
+   88  ll /etc/rc*
+   89  cd /etc/
+   90  ls -l rc*
+   91  ls
+   92  cd rc0.d/
+   93  ls
+   94  ll
+   95  cd ../rc6.d/
+   96  ls
+   97  ll
+   98  cd ..
+   99  sudo vim rc.local 
+  100  ifconfig
+  101  sudo smbpasswd -a erobbing
+  102  sudo apt-get install imagemagick
+  103  ls
+  104  cd work/
+  105  ls
+  106  cd code/
+  107  ls
+  108  cd huawei-kernel-source-code/
+  109  ls
+  110  cd kernel/
+  111  ls
+  112  git status 
+  113  cd ..
+  114  ls
+  115  git status 
+  116  cd kernel/
+  117  ls
+  118  git status 
+  119  cd ..
+  120  ls
+  121  git add kernel/
+  122  git status 
+  123  git branch -a
+  124  git status 
+  125  git add kernel/.mailmap 
+  126  ps
+  127  ls
+  128  cd kernel/
+  129  ls
+  130  git add mm/
+  131  cd ..
+  132  ls
+  133  cd ..
+  134  ls
+  135  rm -fr huawei-kernel-source-code/
+  136  ls
+  137  history
+  138  history > 00-vm-build-guid.txt
